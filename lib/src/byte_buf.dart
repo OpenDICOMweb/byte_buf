@@ -12,11 +12,11 @@ library odw.sdk.byte_buf;
 import 'dart:math';
 import 'dart:typed_data';
 
-import 'package:common/date_time.dart';
+import 'package:base/base.dart';
+import 'package:date_time/date_time.dart';
 //FIX: merge common/date_time with date_time/date_time
 //import 'package:date_time/date_time.dart';
 import 'package:number/number.dart';
-import 'package:string/ascii.dart';
 import 'package:system/system.dart';
 
 part 'reader.dart';
