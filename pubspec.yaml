@@ -1,0 +1,21 @@
+name: byte_buf
+description: A package for encoding/decoding byte data.
+version: 0.6.0
+# original creator
+author: Jim Philbin <jfphilbin@gmail.com>
+
+homepage: https://github.com/OpenDICOMweb/byte_buf
+
+environment:
+  sdk: ^1.24.2
+
+dependencies:
+#TODO: remove common and replace w/ date_time
+  number:
+    path: C:/odw/sdk/number
+    version: ^0.6.0
+
+dev_dependencies:
+  benchmark_harness: ^1.0.4
+  grinder: ^0.8.0
+  test: ^0.12.0
